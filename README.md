@@ -1,54 +1,54 @@
-# Egyptian Farm Website
+# موقع المزرعة المصرية
 
-A modern, responsive website showcasing an Egyptian farm with beautiful animations and design elements inspired by ancient Egyptian culture.
+موقع حديث ومتجاوب يعرض مزرعة مصرية مع رسوم متحركة جميلة وعناصر تصميم مستوحاة من الثقافة المصرية القديمة.
 
-## Features
+## المميزات
 
-- Responsive design that works on all devices
-- Beautiful sand particle animation background
-- Modern UI with Egyptian-inspired color scheme
-- Sections for farm information, crops, irrigation systems, and contact details
-- Smooth animations and transitions
-- Mobile-friendly navigation
+- تصميم متجاوب يعمل على جميع الأجهزة
+- خلفية متحركة جميلة لحبيبات الرمال
+- واجهة مستخدم حديثة بألوان مستوحاة من مصر
+- أقسام لمعلومات المزرعة والمحاصيل وأنظمة الري وتفاصيل الاتصال
+- حركات وانتقالات سلسة
+- تصفح سهل على الهواتف المحمولة
 
-## Setup
+## التثبيت
 
-1. Clone this repository
-2. Install dependencies:
+1. استنسخ هذا المستودع
+2. قم بتثبيت الاعتماديات:
 ```bash
 npm install
 ```
-3. Start the development server:
+3. ابدأ خادم التطوير:
 ```bash
 npm start
 ```
 
-The website will open automatically in your default browser at `http://localhost:8080`.
+سيفتح الموقع تلقائياً في متصفحك الافتراضي على `http://localhost:8080`.
 
-## Technologies Used
+## التقنيات المستخدمة
 
 - HTML5
-- CSS3 (with CSS Variables and Flexbox/Grid)
-- Google Fonts (Cinzel and Raleway)
-- Live Server for development
+- CSS3 (مع متغيرات CSS و Flexbox/Grid)
+- خطوط Google (Noto Naskh Arabic)
+- Live Server للتطوير
 
-## Customization
+## التخصيص
 
-### Colors
-You can customize the color scheme by modifying the CSS variables in the `:root` selector in `styles.css`:
+### الألوان
+يمكنك تخصيص نظام الألوان عن طريق تعديل متغيرات CSS في المحدد `:root` في ملف `styles.css`:
 
 ```css
 :root {
-    --primary-color: #c4a661;
-    --secondary-color: #8b7355;
-    --accent-color: #d4af37;
-    /* ... other colors ... */
+    --sunset-orange: #FF7E5F;
+    --sunset-purple: #845EC2;
+    --sunset-gold: #FFB75E;
+    /* ... ألوان أخرى ... */
 }
 ```
 
-### Content
-Edit the content in `index.html` to update the farm information, statistics, and contact details.
+### المحتوى
+قم بتعديل المحتوى في `index.html` لتحديث معلومات المزرعة والإحصائيات وتفاصيل الاتصال.
 
-## License
+## الترخيص
 
-This project is licensed under the MIT License - see the LICENSE file for details. 
+هذا المشروع مرخص تحت رخصة MIT - راجع ملف LICENSE للتفاصيل. 
