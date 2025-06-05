@@ -17,11 +17,12 @@
 }
 
 body {
-    font-family: 'Raleway', sans-serif;
+    font-family: 'Noto Naskh Arabic', 'Raleway', sans-serif;
     line-height: 1.6;
     color: var(--text-color);
     background: transparent;
     overflow-x: hidden;
+    text-align: right;
 }
 
 .container {
@@ -159,16 +160,18 @@ body {
     display: flex;
     justify-content: space-between;
     align-items: center;
+    flex-direction: row-reverse;
 }
 
 .logo {
     color: var(--sunset-gold);
-    font-family: 'Cinzel', serif;
+    font-family: 'Noto Naskh Arabic', serif;
     font-size: 1.5rem;
     font-weight: 700;
     display: flex;
     align-items: center;
     gap: 1rem;
+    flex-direction: row-reverse;
 }
 
 .logo-img {
@@ -188,10 +191,15 @@ body {
     color: var(--sunset-gold);
 }
 
+.nav-links {
+    display: flex;
+    gap: 2rem;
+    flex-direction: row-reverse;
+}
+
 .nav-links a {
     color: var(--light-text);
     text-decoration: none;
-    margin-left: 2rem;
     transition: color 0.3s ease;
 }
 
@@ -495,6 +503,7 @@ body {
     grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
     gap: 2rem;
     margin-top: 3rem;
+    text-align: right;
 }
 
 .crop-card {
@@ -569,6 +578,10 @@ body {
     margin-top: 3rem;
 }
 
+.contact-info {
+    text-align: right;
+}
+
 .contact-info p {
     margin-bottom: 1rem;
     font-size: 1.2rem;
@@ -583,6 +596,7 @@ body {
     border-radius: 5px;
     cursor: pointer;
     transition: background-color 0.3s ease;
+    font-family: 'Noto Naskh Arabic', sans-serif;
 }
 
 .cta-button:hover {
@@ -610,14 +624,21 @@ h2 {
 
 /* Responsive Design */
 @media (max-width: 768px) {
-    .about-content {
-        grid-template-columns: 1fr;
-    }
-    
-    .contact-content {
+    .navbar .container {
         flex-direction: column;
-        text-align: center;
-        gap: 2rem;
+    }
+
+    .nav-links {
+        margin-top: 1rem;
+        flex-direction: row-reverse;
+    }
+
+    .logo {
+        margin-bottom: 1rem;
+    }
+
+    .about-content, .contact-content {
+        flex-direction: column;
     }
     
     .hero h1 {
