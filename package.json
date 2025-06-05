@@ -1,0 +1,22 @@
+{
+  "name": "egyptian-farm-website",
+  "version": "1.0.0",
+  "description": "A website showcasing an Egyptian farm with modern design",
+  "main": "index.html",
+  "scripts": {
+    "dev": "npx serve",
+    "build": "echo 'No build step required'",
+    "start": "npx serve"
+  },
+  "keywords": [
+    "egypt",
+    "farm",
+    "agriculture",
+    "website"
+  ],
+  "author": "",
+  "license": "MIT",
+  "dependencies": {
+    "serve": "^14.2.1"
+  }
+} 
